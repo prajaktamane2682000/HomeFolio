@@ -1,6 +1,5 @@
 "use client";
-import { useGlobalContext } from "@/context/globalContext";
-
+import { useGlobalContext } from "@/context/GlobalContext"
 export const UnreadMessageCount = () => {
   const { unreadCount } = useGlobalContext();
   return (
