@@ -1,12 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import {
-  FaTimes,
   FaBath,
   FaBed,
   FaRulerCombined,
   FaMapMarker,
-  FaCheck,
   FaMoneyBill,
 } from "react-icons/fa";
 export const FeaturedPropertyCard = ({ property }) => {

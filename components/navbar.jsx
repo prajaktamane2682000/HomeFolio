@@ -14,7 +14,7 @@ import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 const NavBar = () => {
   const { data: session, status } = useSession();
 
-  console.log("Session data:", session);
+  // console.log("Session data:", session);
 
   const profileImage = session?.user?.image;
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 import Infobox from "./Infobox";
 
 const Infoboxes = () => {

@@ -6,6 +6,7 @@ import { getSessionUser } from "@/utils/getSessionUser";
 const SavedProperties = async () => {
   const  { userId } = await getSessionUser();
  
+  await connectDB();
 
   const { bookmarks } = await User.findById(userId).populate("bookmarks");
   //console.log(bookmarks);

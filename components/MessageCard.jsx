@@ -68,7 +68,9 @@ export const MessageCard = ({ message }) => {
       </ul>
       <button
         onClick={handleReadClick}
-        className="mt-4 mr-3 bg-blue-500 text-white py-1 px-3 rounded-md"
+        className={`mt-4 mr-3 ${
+          isRead ? "bg-gray-300" : "bg-blue-500 text-white"
+        } py-1 px-3 rounded-md`}
       >
         {isRead ? "Mark as new" : "Mark As Read"}
       </button>

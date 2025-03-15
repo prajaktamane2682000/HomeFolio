@@ -8,7 +8,7 @@ export const PropertyHeaderImage = ({ image }) => {
         <div className="grid grid-cols-1">
           <Image
             src={image}
-            alt=""
+            alt="Header Image"
             className="object-cover h-[400px] w-full"
             width="1800"
             height="0"

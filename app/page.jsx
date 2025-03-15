@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-
 import Infobox from "@/components/Infoboxes";
 import HomeProperties from "@/components/HomeProperties";
 import { FeaturedProperties } from "@/components/FeaturedProperties";
